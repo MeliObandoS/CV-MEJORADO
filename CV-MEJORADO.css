@@ -34,15 +34,15 @@
 }
 
 .foto {
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 525px;
     border-radius: 5%;
 }
 
 .container1 {
     display: grid;
     grid-template-columns: 1fr 3fr 3fr;
-    min-width: 275px 450px 450px ;
+    min-width: 275px 450px 450px;
 }
 
 .perfil {
@@ -80,24 +80,48 @@
 body {
     color: white;
     background-color: black;
-    }
+}
 
 .footer {
-    color:white;
+    color: white;
     font-style: italic;
     font-size: 30px;
     text-align: center;
     text-decoration: underline;
     margin-top: 100px;
 }
+
 .fyd {
     display: flex;
     flex-direction: row;
 }
-a{
+
+a {
     color: white;
 }
-.texto{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+
+.texto {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
+}
+
+.vectorLinkedin {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.vector-GitHub {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.fyd {
+    display: grid;
+    grid-template-columns: 250px 250px;
+}
+
+.inicioFooter {
+    text-align: center;
 }
