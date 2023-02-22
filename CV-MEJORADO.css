@@ -1,0 +1,103 @@
+.titulo {
+    color: black;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    display: grid;
+    justify-content: end;
+    align-items: last baseline;
+    text-align: right;
+    width: 150px;
+    height: 150px;
+    padding-right: 5px;
+    padding-left: 0%;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    margin-top: 5%;
+}
+
+.containerPadre {
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.home {
+    display: grid;
+    justify-content: end;
+    text-align: right;
+    align-items: flex-start;
+    width: auto;
+    height: auto;
+    min-width: 270px;
+    padding-right: 5px;
+}
+
+.foto {
+    width: 450px;
+    height: 450px;
+    border-radius: 5%;
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+    min-width: 275px 450px 450px ;
+}
+
+.perfil {
+    display: grid;
+    align-items: center;
+}
+
+.tituloPerfil {
+    display: flex;
+    justify-content: left;
+}
+
+#inicio {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+}
+
+#acercaDeMi {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: start;
+    min-width: 420px;
+    padding-top: 20%;
+    margin-bottom: 5%;
+}
+
+.nombre {
+    font-size: xx-large;
+    font-style: italic;
+}
+
+body {
+    color: white;
+    background-color: black;
+    }
+
+.footer {
+    color:white;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 100px;
+}
+.fyd {
+    display: flex;
+    flex-direction: row;
+}
+a{
+    color: white;
+}
+.texto{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
