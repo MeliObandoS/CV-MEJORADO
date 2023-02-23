@@ -126,7 +126,7 @@ a {
     text-align: center;
 }
 /* Pantalla pequeña */
-@media (max-width: 767px) {
+@media (max-width: 320px) {
     /* Estilos para pantallas pequeñas */
   }
   
