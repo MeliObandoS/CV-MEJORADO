@@ -141,3 +141,6 @@ body {
         font-size: 18px;
     }
 }
+body {
+    box-sizing: border-box;
+}
